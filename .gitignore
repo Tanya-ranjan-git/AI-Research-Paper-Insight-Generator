@@ -1,0 +1,21 @@
+# Secrets
+.env
+# Virtual environments
+venv/
+.venv/
+env/
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+# Private uploads and generated indexes (keep folders via .gitkeep)
+data/uploads/*
+data/vector_store/*
+!data/uploads/.gitkeep
+!data/vector_store/.gitkeep
+# Models / editor / OS
+.cache/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
